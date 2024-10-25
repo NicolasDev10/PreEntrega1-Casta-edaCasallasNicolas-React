@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">ECOMMERCE</a>
+    <a className="navbar-brand" href="#">NITINA CARS</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -18,13 +18,13 @@ function NavBar() {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Categorias
+            Marcas
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Opcion 1</a></li>
-            <li><a className="dropdown-item" href="#">Opcion 2</a></li>
+            <li><a className="dropdown-item" href="#">Ferrari</a></li>
+            <li><a className="dropdown-item" href="#">Porshe</a></li>
             <li><a className="dropdown-divider"></a></li>
-            <li><a className="dropdown-item" href="#">Opcion 3</a></li>
+            <li><a className="dropdown-item" href="#">Audi</a></li>
           </ul>
         </li>
         <li className="nav-item">

@@ -1,9 +1,9 @@
 
 
-function itemListC() {
+function ItemListC() {
   return (
     <div>itemListC</div>
   )
 }
 
-export default itemListC
+export default ItemListC

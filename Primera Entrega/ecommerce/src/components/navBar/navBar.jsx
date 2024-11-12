@@ -1,6 +1,8 @@
 
+import CardWidget from "./CardWidget";
+import {Link} from "react-router-dom";
 
-function NavBar() {
+function NavBar({ cartCount, title }) {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
